@@ -5,7 +5,9 @@
 Recibe un Array A de N números enteros, devuelve el menor entero positivo que NO esté incluido en el Array, por ejemplo:
 
 Para A = [1, 3, 6, 4, 1, 2], retorna 5.
+
 Para A = [1, 2, 3], retorna 4.
+
 Para A = [−1, −3], retorna 1.
 
 Con las condiciones:
