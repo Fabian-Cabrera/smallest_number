@@ -1,7 +1,7 @@
-#API Smallest Number
+##API Smallest Number
 	- Version python: 3.10
 
-#Función
+##Función
 Recibe un Array A de N números enteros, devuelve el menor entero positivo que NO esté incluido en el Array, por ejemplo:
 
 Para A = [1, 3, 6, 4, 1, 2], retorna 5.
@@ -13,7 +13,7 @@ Con las condiciones:
 - Cada elemento del array debe ser un entero entre -1.000.000 y 1.000.000
 ## Instrucciones
 - Si deseas implementar solo la funcion, puedes encontrarla en el archivo **solution.py** , en este, encontraras los metodos para validar las condiciones y retornar la salida del programa.
-###API REST
+##API REST
 Puedes encontrar esta API hosteada en HEROKU, la url es la siguiente:
 #### https://smallest-number.herokuapp.com/
 ###ENDPOINTS
