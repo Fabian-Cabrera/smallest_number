@@ -41,8 +41,11 @@ Puedes encontrar esta API hosteada en HEROKU, la url es la siguiente:
 	"result" nos devuelve el menor entero positivo que NO esté incluido en nuestro Array .
 
 2.  https://smallest-number.herokuapp.com/stats
+
 		- Método: **GET**
+		
 		- Tipo de contenido: application/json 
+		
 	Nuestro endpoint "/stats" recibe un número entero y devuelve para cuantos Arrays ese ha sido el resultado esperado, el total de Arrays que se hayan verificado y la tasa de ocurrencia, todo esto en formato JSON.
 	
 	Usando de nuevo nuestro API Testing online, en la URL pondremos nuestro endpoint, modificaremos el método a GET, y en Content eliminaremos todo ya que el método GET no puede llevar un body.
