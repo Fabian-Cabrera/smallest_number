@@ -1,7 +1,7 @@
-##API Smallest Number
+# API Smallest Number
 	- Version python: 3.10
 
-##Función
+# Función
 Recibe un Array A de N números enteros, devuelve el menor entero positivo que NO esté incluido en el Array, por ejemplo:
 
 Para A = [1, 3, 6, 4, 1, 2], retorna 5.
@@ -13,10 +13,10 @@ Con las condiciones:
 - Cada elemento del array debe ser un entero entre -1.000.000 y 1.000.000
 ## Instrucciones
 - Si deseas implementar solo la funcion, puedes encontrarla en el archivo **solution.py** , en este, encontraras los metodos para validar las condiciones y retornar la salida del programa.
-##API REST
+### API REST
 Puedes encontrar esta API hosteada en HEROKU, la url es la siguiente:
 #### https://smallest-number.herokuapp.com/
-###ENDPOINTS
+### ENDPOINTS
 1. https://smallest-number.herokuapp.com/smallest
 		- Método: **POST**
 		- Tipo de contenido: application/json 
@@ -26,9 +26,11 @@ Puedes encontrar esta API hosteada en HEROKU, la url es la siguiente:
 			“array”: [1, 3, 6, 4, 1, 2]
 			}
 	Te dejo una imagen de referencia de como debemos ingresar los: datos
+
 	![](https://i.ibb.co/Hr2M98K/test-fastapi-online-post.png)
 
 	Al terminar de ingresar los datos, damos click en el boton "Send" y en la parte derecha de nuestra pantalla, nos indicará la respuesta de nuestra API:
+
 	![](https://i.ibb.co/n0zBnFw/test-fastapi-online-post-result.png)
 
 	"result" nos devuelve el menor entero positivo que NO esté incluido en nuestro Array .
@@ -39,7 +41,9 @@ Puedes encontrar esta API hosteada en HEROKU, la url es la siguiente:
 	Nuestro endpoint "/stats" recibe un número entero y devuelve para cuantos Arrays ese ha sido el resultado esperado, el total de Arrays que se hayan verificado y la tasa de ocurrencia, todo esto en formato JSON.
 	
 	Usando de nuevo nuestro API Testing online, en la URL pondremos nuestro endpoint, modificaremos el método a GET, y en Content eliminaremos todo ya que el método GET no puede llevar un body.
+
 	![](https://i.ibb.co/4JQfmst/test-fastapi-online-get.png)
+    
 	En nuestro parametro number, indicaremos el numero que queremos evaluar y daremos click en "Send"
 	Nos entregara la informacion de la siguiente manera:
 	
