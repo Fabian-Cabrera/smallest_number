@@ -12,6 +12,11 @@ async def catch_exception_handler(request: Request, exc: Exception):
         status_code=status.HTTP_401_UNAUTHORIZED,
         content={"error": "Error in parameters"},
     )
+    
+@app.get('/')
+def root():    
+    return "Ingresa a https://github.com/Fabian-Cabrera/smallest_number para saber como usar esta API :)"
+    
 @app.get('/stats', response_class=JSONResponse) #recibe un numero entero y devuelve stats de este numero
 def getInformation(number: int):
     db = HandleDB()
