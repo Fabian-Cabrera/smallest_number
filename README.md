@@ -28,7 +28,7 @@ Puedes encontrar esta API hosteada en HEROKU, la url es la siguiente:
 	Para probar este endpoint podemos ingresar a https://reqbin.com/, este servicio nos permitira probar la API REST sin necesidad de instalar nada en nuesto equipo. 
 	En la URL pondremos nuestro endpoint, modificaremos el método a POST, y en Content seleccionaremos JSON, a continuación podemos ingresar nuestro array con la siguiente estructura:
 			{
-			“array”: [1, 3, 6, 4, 1, 2]
+			"array": [1, 3, 6, 4, 1, 2]
 			}
 	Te dejo una imagen de referencia de como debemos ingresar los: datos
 
