@@ -20,8 +20,11 @@ Puedes encontrar esta API hosteada en HEROKU, la url es la siguiente:
 #### https://smallest-number.herokuapp.com/
 ### ENDPOINTS
 1. https://smallest-number.herokuapp.com/smallest
+
 		- Método: **POST**
+		
 		- Tipo de contenido: application/json 
+		
 	Para probar este endpoint podemos ingresar a https://reqbin.com/, este servicio nos permitira probar la API REST sin necesidad de instalar nada en nuesto equipo. 
 	En la URL pondremos nuestro endpoint, modificaremos el método a POST, y en Content seleccionaremos JSON, a continuación podemos ingresar nuestro array con la siguiente estructura:
 			{
